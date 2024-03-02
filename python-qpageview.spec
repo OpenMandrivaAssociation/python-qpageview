@@ -46,7 +46,7 @@ sed -e "s|\('https://docs\.python\.org/3', \)None|\1'%{_docdir}/python3-docs/htm
 %py_build
 
 # generate html docs
-PYTHONPATH=${PWD} sphinx-build-3 docs/source html
+PYTHONPATH=${PWD} sphinx-build docs/source html
 # remove the sphinx-build leftovers
 rm -rf html/.{doctrees,buildinfo}
 
