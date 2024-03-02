@@ -1,4 +1,3 @@
-# Created by pyp2rpm-3.3.8
 %define pypi_name qpageview
 
 Name:           python-%{pypi_name}
@@ -19,6 +18,7 @@ BuildRequires:  python3dist(pip)
 BuildRequires:  python3dist(wheel)
 BuildRequires:  python-qt5-devel
 BuildRequires:  python-docs
+BuildRequires:	python-sphinx
 
 Provides:       %{pypi_name} = %{version}-%{release}
 Requires:       python-qt5-core
