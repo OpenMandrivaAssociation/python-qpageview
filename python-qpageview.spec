@@ -6,7 +6,7 @@
 Summary:	Widget to display page-based documents for Qt6/PyQt6
 Name:	python-%{pypi_name}
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:	Development/Python
 # See also: https://qpageview.org/
