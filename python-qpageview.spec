@@ -5,8 +5,8 @@
 
 Summary:	Widget to display page-based documents for Qt6/PyQt6
 Name:	python-%{pypi_name}
-Version:	1.0.1
-Release:	3
+Version:	1.0.5
+Release:	1
 License:	GPLv3+
 Group:	Development/Python
 # See also: https://qpageview.org/
@@ -49,7 +49,7 @@ formats. Currently, it supports SVG documents, images, and PDF documents.
 #-----------------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n %{pypi_name}-%{version}
+%autosetup -p1 -n qpageview-1.0.5
 
 %if %{with docs}
 # Use local objects.inv for intersphinx
