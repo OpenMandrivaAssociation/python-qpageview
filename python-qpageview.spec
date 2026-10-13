@@ -6,7 +6,7 @@
 Summary:	Widget to display page-based documents for Qt6/PyQt6
 Name:	python-%{pypi_name}
 Version:	1.0.5
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:	Development/Python
 # See also: https://qpageview.org/
@@ -14,12 +14,12 @@ Url:	https://github.com/frescobaldi/qpageview
 Source0:	https://files.pythonhosted.org/packages/source/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildArch:		noarch
 BuildRequires:	pkgconfig(python3)
-BuildRequires:	python3dist(hatchling)
-BuildRequires:	python3dist(pip)
-BuildRequires:	python3dist(pyproject-api)
-BuildRequires:	python3dist(setuptools)
-BuildRequires:	python3dist(sphinx)
-BuildRequires:	python3dist(wheel)
+BuildRequires:	python%{pyver}dist(hatchling)
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(pyproject-api)
+BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:	python%{pyver}dist(sphinx)
+BuildRequires:	python%{pyver}dist(wheel)
 BuildRequires:	python-cups
 BuildRequires:	python-docs
 BuildRequires:	python-qt6-devel >= 6.6
